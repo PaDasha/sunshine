@@ -1,0 +1,318 @@
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Пашнина Дарья</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap">
+  <link rel='stylesheet' href='https://raw.githack.com/okumurrrra/study/main/normalize.css'>
+  <style>
+  * {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+  background: url("https://sun9-8.userapi.com/impg/TKPswZPlmqzN9BnWgArfux6GsfxHgAO1tYEpqw/1iHvGnLVPew.jpg?size=1280x720&quality=96&sign=e2005a8416d8cb847c36e1134e73e826&type=album");
+  background-size: cover;
+}
+
+.box {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+.landing {
+    position: relative;
+    background-color: transparent;
+}
+
+.landing .header {
+    display: inline;
+    padding: 10px 0 0;
+    position: relative;
+}
+
+
+.landing .header .links {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.landing .header .links li {
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.landing .header .links li:last-child {
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: #FFF;
+    background-color: #6c63ff;
+    font-size: 18px;
+}
+
+.landing .info {
+    width: 100%;
+    float: left;
+    margin-top: 130px;
+}
+
+.landing .info h1 {
+    font-size: 44px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: white;
+}
+
+.landing .info p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color: white;
+}
+
+.landing .info button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #6c63ff;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  display: block;
+  color: transparent;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: lowercase;
+  color: yellow;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: lowercase;
+  color: yellow;
+  font-size: 18px;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+
+@media all and (max-width: 768px) {
+  h2 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+    
+/* spoiler */
+button:focus {
+  outline: none;
+}
+
+
+#spoiler_button {
+ border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: #FFF;
+    background-color: #6c63ff;
+    font-size: 18px;
+}
+
+#spoiler_button:hover {
+border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: #FFF;
+    background-color: aqua;
+    font-size: 18px;
+}
+
+#spoiler_button:active {
+  border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: #FFF;
+    background-color: aqua;
+    font-size: 18px;
+}
+
+  .fadein, .fadeout {
+  height: 0;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+
+  opacity: 0;  
+}
+
+.fadein {
+  height: 100%;
+  opacity: 1;
+ 
+}
+
+#additional p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color: white;
+
+    }
+
+  </style>
+
+</head>
+<body>
+<div class="landing">
+  <div class="box">
+    <div class="header">
+      <ul class="links">
+        <li><a href="#place3" style="color: white">О Нас</a></li>
+        <li><a href="#place4" style="color: white">Акции</a></li>
+        <li><a href="#place5" style="color: white">Мастера</a></li>
+        <li><a href="#place1" style="color: white">Контакты</a></li>
+      </ul>
+    </div>
+    <div class="info">
+      <h1>«Анатомия» — тату-салон, созданный профессионалами</h1>
+      <p>Наш тату-салон предоставляет высококлассное и квалифицированное обслуживание в благоприятной и безопасной обстановке. Мастера «Анатомии» имеют богатый опыт по нанесению татуировок, выполнению перманентного макияжа и прокалыванию пирсинга. </p>
+      <br>
+      <br>
+      <p id="place1">Но, конечно, главной гордостью тату-студии являются положительные отзывы клиентов, которые воспользовались нашими услугами. Сегодня многие из них стали постоянными посетителями и частью нашей семьи.</p>
+      <br>
+      <br>
+  
+      <button name="spoiler_button" id="spoiler_button" type="button">Узнать подробнее</button>
+
+    <div id="spoiler_text" class="fadeout" >
+      <br>
+      <br>
+ <p>(Если ты тоже хочешь стать частью нашей семьи, попробовать себя в чем то новом и быть в постоянном развитии, у нас есть курсы по нанесению татуировок, выполнению перманентного макияжа и прокалыванию пирсинга. Ты сможешь стать квалифицированным мастером своего дела. Также у нас есть специальное предложение. В нашем салоне на обучение любого курса, а также после его прохождения вы сможете получить скидку на любую услугу - 20 %! )
+ </p>
+    </div>
+      
+    </div>
+ </div>
+     <div class="clearfix">
+    </div>
+  
+</div>
+  <div class="container" id="place2">
+  <h2 id="headline">До конца акции осталось:</h2>
+  <div id="countdown">
+    <ul>
+      <li><span id="days"></span>дней</li>
+      <li><span id="hours"></span>часов</li>
+      <li><span id="minutes"></span>минут</li>
+      <li><span id="seconds"></span>секунд</li>
+    </ul>
+  </div>
+</div>
+<div id="additional">
+  <p id="place3">Мы тщательно отбираем эскизы и стили татуировок, которые представлены в каталоге. У нас всегда можно нанести настоящий шедевр художественного тату, который способен удивить даже самого требовательного ценителя искусства. Также мы с радостью ответим на все вопросы о значении понравившегося вам tattoo.</p>
+<br>
+
+</div>         
+
+
+  <script>
+  (function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+
+  let today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy + 1,
+      dayMonth = "05/15/",  //expire countdown
+      date = dayMonth + yyyy;
+  
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > date) {
+    date = dayMonth + nextYear;
+  }
+  //end
+  
+  const countDown = new Date(date).getTime(),
+      x = setInterval(function() {    
+
+        const now = new Date().getTime(),
+              distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "Акция!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+
+//spoiler
+    
+    var divToggleVis = document.getElementById('spoiler_text');
+var button = document.getElementById('spoiler_button');
+
+button.onclick = function() {
+    if (divToggleVis.className === 'fadeout') {
+        divToggleVis.className = 'fadein';
+    } else {
+        divToggleVis.className = 'fadeout';
+    }
+
+    if (button.innerHTML === 'Узнать подробнее') {
+        button.innerHTML = 'Скрыть';
+    } else {
+        button.innerHTML = 'Узнать подробнее';
+    }
+};
+
+  </script>
+
+</body>
+</html>
+
